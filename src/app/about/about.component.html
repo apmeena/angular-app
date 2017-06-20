@@ -1,0 +1,7 @@
+<div class="jumbotron">
+  about works! <input type="text" class="form-control" [(ngModel)]="someName" (blur)="setSomeName(someName)">
+  <p>My Friend list</p>
+  <ul>
+    <li *ngFor="let friend of result"> Id: {{friend.id}}, Name: {{friend.name}} </li>
+  </ul>
+</div>

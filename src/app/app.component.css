@@ -1,0 +1,17 @@
+h1{
+    color: gray;
+}
+.selected {
+    background: green;
+    color: white;
+    padding: 10px;
+}
+.active{
+    color: white !important;
+}
+app-footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 64px;
+}

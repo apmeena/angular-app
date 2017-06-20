@@ -1,0 +1,25 @@
+<!--<div>
+  <h1>List of heros</h1>
+
+  <div *ngFor="let hero of heros">
+    <ul>
+      <li [class.selected]="selectedHero === hero" style="cursor:pointer;" (click)="setHero(hero)">Id : {{hero.id}}, Name : {{hero.name}}</li>
+    </ul>
+  </div>
+
+  
+
+  <div *ngIf="selectedHero">
+    <button (click)="resetSelectedHero()">Reset</button>
+    <b>Hello {{selectedHero.id}}</b>
+    <input [(ngModel)]="selectedHero.name" placeholder="name">
+  </div>
+</div>-->
+
+<app-header></app-header>
+
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
+
+<app-footer></app-footer> 
