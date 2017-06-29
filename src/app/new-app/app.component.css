@@ -1,0 +1,20 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.example-card {
+  width: 400px;
+}
+
+.example-header-image {
+  background-image: url('../assets/shiba1.jpg');
+  background-size: cover;
+}
+
+.example-full-width {
+  width: 100%;
+}
